@@ -7,7 +7,29 @@
   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/node_modules/bootswatch/dist/vapor/bootstrap.min.css">
 
-<style></style>
+<style>
+
+
+.circle-container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.circle-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 5cm;
+}
+
+
+
+</style>
 
   <!-- Add other styles or meta tags as needed -->
   <title>Skander Jneyeh</title>
@@ -63,19 +85,33 @@
 
       <div class="card border-primary mb-3" style="max-width: 200rem;     margin-top: 20px; ">
         <div class="card-header">About me</div>
-
-        <div class="card-body" >
+        
              
-            <h4 class="card-title" style="align-items: center  ; justify-content: center; display: flex ; flex-direction: column;"  >WHO I AM ?</h4>
-            <p class="card-text"  style="align-items: center  ; justify-content: center; display: flex ; flex-direction: column;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-          <a href="#" style="margin-right: 600px;"><img src="./images/skaparis.jpg" alt="Skander" style="width: 300px; height: auto; margin-bottom: 100px;"></a>
-          
+            <h4 class="card-title text-center" style="align-items: center  ; justify-content: center; display: flex ; flex-direction: column;"  >WHO I AM ?</h4>
+            
+            <div class="card-body text-center" >
+                <div class="circle-container"  >
+                    <a class="circle-image" >
+                        <img src="./images/skaparis.jpg" alt="Skander">
+                    </a>
+                </div>
+                <h3><br>Hello, I'm Skander, a 22-year-old born in Sousse, Tunisia. <br> 
+                    Currently, I am pursuing my bachelor's degree at the Technical University Munich in Germany.<br> 
+                    From a young age, my passion for the IT domain has driven me to continually explore and learn new things.<br>
+                     Now, I am actively seeking new opportunities to enhance my career as a developer.</h3>
+                    
+                
+                
+                
 
 
             
           </div>
       </div>
+        
+        
+
+        
       
 
 
